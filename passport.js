@@ -3,8 +3,8 @@ window.passport = new window.immutable.passport.Passport({
       environment: window.immutable.config.Environment.SANDBOX,
     }),
     clientId: process.env.clientId,
-    redirectUri: 'https://liked-redbird-noted.ngrok-free.app/',
-    logoutRedirectUri: 'https://liked-redbird-noted.ngrok-free.app/logout.html',
+    redirectUri: 'https://immutable-stackupinvaders.adityanarayan13.repl.co/',
+    logoutRedirectUri: 'https://immutable-stackupinvaders.adityanarayan13.repl.co/logout.html',
     audience: 'platform_api',
     scope: 'openid offline_access email transact'
   });
